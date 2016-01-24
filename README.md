@@ -1,2 +1,2 @@
-# algo-fun
-Algorithm Puzzles &amp; Challenges
+# Algorithm Puzzles &amp; Challenges
+(Mostly, in ES6)
