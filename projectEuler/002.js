@@ -16,7 +16,7 @@ const fibEven = max => {
         temp = a;
         a = b;
         b += temp;
-        if ( (b & 1) === 0) {
+        if (b % 2 === 0) {
             even += b;
         }
     
