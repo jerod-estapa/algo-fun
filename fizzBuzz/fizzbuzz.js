@@ -28,4 +28,4 @@ const start = +new Date();
 fizzBuzz(100);
 const end = +new Date();
 const diff = end - start;
-console.log(diff);
+console.log("\n\n The runtime of fizzBuzz is " + diff + " milliseconds.");
