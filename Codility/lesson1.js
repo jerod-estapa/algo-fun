@@ -5,24 +5,24 @@
 // The function should return 0 if N doesn't contain a binary gap.
 
 
-let dec2bin = dec => {
-  
+const dec2bin = dec => {
+
   if (dec > 2.14e+9){
-  
-	console.log("Input is too big!");
-    
+
+	   console.log("Input is too big!");
+
   }
-  
+
   else {
-  
+
     let bin = (dec >> 0).toString(2);
 
     return bin;
-    
+
   }
-  
-  
-  
+
+
+
 };
 
 console.log(dec2bin(5000));
