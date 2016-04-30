@@ -2,12 +2,25 @@
 // The sum of these multiples is 23.
 // Find the sum of all the multiples of 3 or 5 below 1000.
 
-let x = 0;
+// Algorithm
 
-for (let i=1; i < 1000; i++) {
-  if (i % 3 === 0 || i % 5 === 0) {
-    x += i;
-  }
-}
+const findMults = n => {
+    
+    let x = 0;
 
-console.log(x);
+    for (let i=1; i < n; i++) {
+        if (i % 3 === 0 || i % 5 === 0) {
+            x += i;
+        }
+    }
+    
+    console.log(x);
+};
+
+// Measure algorithm runtime
+
+const start = +new Date();
+findMults(1000);
+const end = +new Date();
+const diff = end - start;
+console.log("\n\n The runtime of findMults is " + diff + " milliseconds.");

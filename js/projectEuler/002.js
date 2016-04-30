@@ -26,4 +26,8 @@ const fibEven = max => {
     
 };
 
+const start = +new Date();
 console.log(fibEven(4e6));
+const end = +new Date();
+const diff = end - start;
+console.log("\n\n The runtime of findMults is " + diff + " milliseconds.");
